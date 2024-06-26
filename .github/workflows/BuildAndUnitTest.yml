@@ -27,7 +27,7 @@ jobs:
       run: npm run npm-security-test
 
   Build_and_Unit_Test:
-    runs-on: ununtu-latest
+    runs-on: ubuntu-latest
 
     needs: Npm_security_Test
     steps:
