@@ -7,7 +7,7 @@
     "test:unit": "mocha -u tdd 'tests/unit/*.js'",
     "test:ui": "npx playwright test",
     "start": "node index.js",
-    "npm-security-test": "npm audit"
+    "npm-security-test": "npm audit fix"
   },
   "keywords": [],
   "author": "",
